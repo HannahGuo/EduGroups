@@ -1,0 +1,40 @@
+#search {
+    margin-top: 20px;
+    padding: 5px;
+    width: 200px;
+    border: 4px solid black;
+}
+
+#map {
+    height: 380px;
+    width: 800px;
+    margin-top: 20px;
+}
+
+.join {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.join:hover {
+    border: 1px solid blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#userZoom {
+    background-color: white;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 8px;
+    width: 200px;
+}
+
+#userZoom:hover {
+    background-color: lightgrey;
+}

@@ -1,0 +1,65 @@
+{
+    "studyGroups": [{
+        "attendees": {
+            "cr6lds72j": {
+                "email": "testMe@gmail.a",
+                "grade": "12",
+                "name": "Garen",
+                "notes": "",
+                "school": "Demacia"
+            },
+            "ta6dsaymd": {
+                "email": "testMe2@gmail.a",
+                "grade": "5",
+                "name": "Re",
+                "notes": "",
+                "school": "Rue"
+            }
+        },
+        "capacity": 12,
+        "coordinates": {
+            "lat": 43.16,
+            "lng": -79.6446
+        },
+        "email": "hguo2102@gmail.com",
+        "grade": 12,
+        "host": "Lux",
+        "location": "1201 Ogden Avenue",
+        "name": "Test Group 1",
+        "otherMessages": "Come now!",
+        "subject": "Advanced Functions",
+        "date": "11AM",
+        "time": "11AM"
+    }, {
+        "attendees": {
+            "sadasdasd": {
+                "email": "testMe@gmail.a",
+                "grade": "12",
+                "name": "Garn",
+                "notes": "",
+                "school": "Demacia"
+            },
+            "ta23saymd": {
+                "email": "testMe2@gmail.a",
+                "grade": "5",
+                "name": "Rea",
+                "notes": "",
+                "school": "Rue"
+            }
+        },
+        "capacity": 12,
+        "coordinates": {
+            "lat": 43.56,
+            "lng": -79.6446
+        },
+        "email": "test@gmail.com",
+        "grade": 12,
+        "host": "Jhin",
+        "location": "1201 Ogden Avenue",
+        "name": "Test Group 2",
+        "otherMessages": "Come now!",
+        "subject": "Advanced Functions 2",
+        "time": "11AM",
+        "date": "11AM"
+    }]
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EduMap</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="styles/signin.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-database.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=APIKEY&libraries=places"
+        type="text/javascript"></script>
+    <script src="scripts/signin.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <header><a href="https://seanli2001.github.io/websiteReal/">Return to Ed-Unite</a></header>
+    <div id="content">
+        <span class="titleFont">ACCESS EDUGROUPS</span>
+
+        <span>This page allows you to create an EduGroup.</span><br>
+        <span>Please <b>sign in</b> with Google to access EduMap services!</span>
+        <span id="currentSignIn"></span>
+
+        <button id="signinbutton" onclick="logIn()">Sign In</button>
+        <button id="signoutbutton" onclick="logOut()">Sign Out</button>
+
+        <div id="fillMeWhenSignIn">
+            <br><br>
+            <span class="titleFont">VIEW YOUR EDUGROUPS!</span><br><br>
+            <table id="showEduGroups">
+                <thead>
+                    <th>Host</th>
+                    <th>E-mail</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Name</th>
+                    <th>Capacity</th>
+                    <th>Location</th>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                    <th>Attendees</th>
+                    <th>Remove?</th>
+                </thead>
+            </table><br><br>
+            <span class="titleFont">ADD AN EDUGROUP!</span><br><br>
+            <form id="myForm2">
+                <input class="formTextInput" type="text" name="name" placeholder="Name your EduGroup..." minlength="5"
+                    required><br>
+                <input id="location" class="formTextInput" type="text" name="location" placeholder="Hosting Location..."
+                    minlength="2" required><br>
+                <input class="formTextInput" type="date" name="date" placeholder="Date..." required><br>
+                <input class="formTextInput" type="time" name="time" placeholder="Time..." required><br>
+                <input class="formTextInput" type="subject" name="subject" placeholder="Subject..." required><br>
+                <input class="formTextInput" type="text" name="capacity" placeholder="Capacity..." required><br>
+                <input class="formTextInput" type="number" name="grade" placeholder="Grade..." required><br>
+                <input class="formTextInput" type="text" name="otherMessages" placeholder="Other Notes..." required><br>
+                <input id="submitButton" type="submit" name="submit" value="Add EduGroup"><br><br>
+            </form>
+        </div>
+
+        <button onclick="location.href='index.html'" id="create">Want to join an EduGroup? Click here!</button>
+
+    </div>
+</body>
+
+</html>

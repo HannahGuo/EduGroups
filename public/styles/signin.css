@@ -1,0 +1,71 @@
+#signinbutton {
+    background-color: #4eb5f1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    width: 30%;
+    font-size: 16px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#signinbutton:hover {
+    background-color: #4095c6;
+}
+
+#signoutbutton {
+    background-color: #4eb5f1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    width: 30%;
+    font-size: 16px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#signoutbutton:hover {
+    background-color: #4095c6;
+}
+
+.noShow {
+    background-color: red;
+}
+
+.showMe {
+    background-color: green;
+}
+
+#currentSignIn {
+    font-weight: bold;
+}
+
+#showEduGroups {
+    margin: 0 auto;
+}
+
+#showEduGroups, tr {
+    border: 3px solid black;
+    font-size: 12.5px;
+}
+
+th {
+    border-bottom: 3px solid black;
+}
+
+.removeGroup { 
+    color: red;
+}
+
+.removeGroup:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
